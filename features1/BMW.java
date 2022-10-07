@@ -13,13 +13,8 @@ public class BMW extends Car{
 		this.maxTorque = maxTorque;
 	}
 
-	public void displayCar() {
-		System.out.println("car id: "+id);
-		System.out.println("car name: "+name);
-		System.out.println("car price: " + price);
-		System.out.println("engine????? : " +engineCC);
-		System.out.println("fuel type: " + fuelType);
-		System.out.println("year of manifacture: "+ manifacturingYear);
+	public void displayBMW() {
+		displayCar();
 		System.out.println("Cylinders: "+this.noOfCylinders);
 		System.out.println("Torque: "+ this.maxTorque);
 	}

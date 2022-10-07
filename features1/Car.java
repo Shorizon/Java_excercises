@@ -1,6 +1,6 @@
 package com.qa.java.oop.features;
 
-public abstract class Car {
+public class Car {
 	int id;
 	String name;
 	float price;
@@ -19,7 +19,17 @@ public abstract class Car {
 		this.manifacturingYear = manifacturingYear;
 	}
 
-	public abstract void displayCar();
-		
+	public void displayCar() {
+
+		System.out.println("car id: "+id);
+		System.out.println("car name: "+name);
+		System.out.println("car price: " + price);
+		System.out.println("engine????? : " +engineCC);
+		System.out.println("fuel type: " + fuelType);
+		System.out.println("year of manifacture: "+ manifacturingYear);
+
+	}
+
+
 
 }
