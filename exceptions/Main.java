@@ -2,9 +2,11 @@ package com.qa.java.Exceptions;
 
 
 public class Main {
+	
 
 	public static void main(String args[]) {
-		
+		Util Util = new Util();
+	
 		
 		Product empty = null ;
 		
